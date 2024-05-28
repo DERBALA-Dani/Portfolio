@@ -1,0 +1,22 @@
+nav ul {
+    background: linear-gradient(to right bottom, rgb(39, 5, 71), rgb(49, 240, 214));
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+ul li{
+    padding: 10px;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: rgb(192, 192, 192);
+}
