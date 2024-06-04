@@ -1,27 +1,95 @@
-nav ul {
-    background: linear-gradient(to right bottom, rgb(39, 5, 71), rgb(49, 240, 214));
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
+img {
+    border-radius: 200px;
+}
+
+/* Styles de la navigation */
+nav ul {
+    background: linear-gradient(to right bottom, rgb(39, 5, 71), rgb(49, 240, 214));
     display: flex;
     list-style: none;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
-ul li{
-    padding: 10px;
+nav ul li {
+    padding: 20px;
 }
 
-ul a{
+nav ul a {
     color: white;
     text-decoration: none;
 }
 
-ul a:hover {
+nav ul a:hover {
     color: rgb(192, 192, 192);
 }
 
-main img{
+/* Styles pour le main */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
     width: 180px;
-    height: 60px;
+    height: auto;
+}
+
+/* Styles pour les sections */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin: 5px 0;
+}
+
+/* Styles pour le formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: rgb(39, 5, 71);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(49, 240, 214);
 }
